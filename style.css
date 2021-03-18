@@ -1,0 +1,39 @@
+/*
+#soyUnId{}
+.soyUnaClase{}
+*/
+#consulta{
+    width: 300px;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#respuesta{
+    width: 490px;
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div{
+    height: 300px;
+}
+#contenedorDivs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    transform: translateY(10%);
+}
+body{
+    background-image: url('./img/bodyBackground.jpg');
+}
+.td_,.insertedImg{
+    width: 100px;
+    height: 55PX;
+    text-align: center;
+}
+#fecha_{
+    height: 30px;
+}

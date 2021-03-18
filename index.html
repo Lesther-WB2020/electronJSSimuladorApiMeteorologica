@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="./style.css">
+    <meta charset="UTF-8">
+    <title>PRONÓSTICO METEOROLÓGICO</title>
+</head>
+<body>
+        <div id="contenedorDivs">
+            <div id="consulta" class="divHijo">
+                    <form action="" id="formulario">
+                        <input id="datePicker" type="date" required>
+                        <input id="btn" type="submit" value="CONSULTAR">
+                    </form>
+            </div>    
+            <div id="respuesta" class="divHijo">
+                <table id="datosConsulta">
+                        <tr>
+                            <th colspan="3" id="fecha_"></th>
+                        </tr>
+                        <tr>
+                            <th id="infoUno"></th>
+                            <th id="infoDos"></th>
+                            <th id="infoTres"></th>
+                        </tr>
+                        <tr>
+                            <td  class="td_" id="dataUno"></td>
+                            <td  class="td_" id="dataDos"></td>
+                            <td  class="td_" id="dataTres"></td>
+                        </tr>
+                        <tr>
+                            <td class="td_" ><img id="imgUno" src="" alt=""></td>
+                            <td class="td_" ><img id="imgDos" src="" alt=""></td>
+                            <td class="td_" ><img id="imgTres" src="" alt=""></td>
+                        </tr>
+                        <tr>
+                            <td  class="td_" id="climaUno"></td>
+                            <td  class="td_" id="climaDos"></td>
+                            <td  class="td_" id="climaTres"></td>
+                        </tr>
+                </table>
+            </div>
+        </div>
+</body>
+    <script src="./index.js"></script>
+</html>
