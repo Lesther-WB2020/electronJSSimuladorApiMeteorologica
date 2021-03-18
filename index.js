@@ -98,7 +98,7 @@ document.getElementById('formulario').addEventListener('submit', async (event)=>
                                         }, 1000); 
 
                 }else{
-                    alert('EL PRONÓSTICO FUNCIONA CON FECHAS FUTURAS');
+                    alert('EL PRONÓSTICO FUNCIONA CON FECHAS FUTURAS Y LA DE HOY');
                 }
 })
 
